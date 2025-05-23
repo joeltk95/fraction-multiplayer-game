@@ -27,7 +27,7 @@ A mobile-friendly, real-time multiplayer web game for learning fractions, built 
 3. Start the backend server:
    ```bash
    cd backend
-   node server.js
+   node index.js
 3. Run the app:
    ```bash
    cd frontend
