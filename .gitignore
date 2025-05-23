@@ -1,0 +1,19 @@
+# Ignore node_modules everywhere
+**/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Build output
+/frontend/build/
+/backend/dist/
+/backend/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
