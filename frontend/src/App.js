@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import Card from './components/Card';
 import styles from './App.module.css';
+import watermelon from './images/watermelon.jpg';
 
 const socket = io('http://localhost:3001');
 
@@ -152,7 +153,7 @@ function App() {
           <Card
             key={i}
             fraction={card.fraction}
-            imageSrc={card.image}
+            imageSrc={watermelon}
             onClick={() => {
               if (playerId === currentPlayer.id && player.id === playerId) {
                 playCard(i);

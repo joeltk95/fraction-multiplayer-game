@@ -31,15 +31,12 @@ const gameState = {
 function randomCard() {
   const denom = Math.floor(Math.random() * 11) + 2; // 2–12
   const numer = Math.floor(Math.random() * denom) + 1;
-  const images = ['pizza.png', 'watermelon.png', 'cake.png', 'icecream.png'];
-  const image = images[Math.floor(Math.random() * images.length)];
 
   return {
     decimal: numer / denom,
     fraction: `${numer}/${denom}`,
     numer,
     denom,
-    image,
   };
 }
 
