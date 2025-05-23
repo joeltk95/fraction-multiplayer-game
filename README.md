@@ -22,8 +22,14 @@ A mobile-friendly, real-time multiplayer web game for learning fractions, built 
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 2. Install dependencies:
+   ```bash
    npm install
-3. Run the app:
-   npm start
-4. (Optional) Start the backend server if you have one:
+3. Start the backend server:
+   ```bash
+   cd backend
    node server.js
+3. Run the app:
+   ```bash
+   cd frontend
+   npm start
+
